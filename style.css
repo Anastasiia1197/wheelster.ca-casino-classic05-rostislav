@@ -18,16 +18,16 @@
 }
 
 :root {
-	--background: linear-gradient(140deg, #131f17 0%, #194b34 45%, #aa3f65 100%);
-	--header: linear-gradient(90deg, #a3387aee 0%, #050806 55%, #1f5f41 100%);
-	--btn-accent: linear-gradient(35deg, #da4c6d, #f61a4d);
+	--background: linear-gradient(140deg, #053f1f 0%, #119256 45%, #7a2845 100%);
+	--header: linear-gradient(90deg, #371586ee 0%, #8f6e15 55%, #a8b81b 100%);
+	--btn-accent: linear-gradient(35deg, #2c0a6b, #f61a4d);
 	--btn-inherit: #ffffff;
 	--accent: #2f8f5f;
 	--gift: #ffffff;
-	--gift-btn: linear-gradient(135deg, #4d2a85, #971c47);
+	--gift-btn: linear-gradient(135deg, #0b6b4e, #0e8f19);
 	--border-radius: 16px;
 	--table: linear-gradient(180deg, #071a11, #10083a);
-	--minus: #7a1f3d;
+	--minus: #787a1f;
 }
 
 * {
@@ -203,8 +203,8 @@ header img {
 	justify-content: space-between;
 	padding: 100px 200px;
 	gap: 50px;
-	background-image: linear-gradient(90deg, rgba(17, 22, 65, 0.89) 30%, rgba(255, 255, 255, 0) 100%),
-		url(./img/layer.webp);
+	background-image:
+		linear-gradient(90deg, rgba(17, 22, 65, 0.89) 30%, rgba(255, 255, 255, 0) 100%), url(./img/layer.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
